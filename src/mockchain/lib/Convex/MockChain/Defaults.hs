@@ -98,6 +98,7 @@ protocolParameters = L.PParams $
       & L.hkdMaxTxSizeL .~ 16_384
       & L.hkdMinFeeAL .~ 44
       & L.hkdMinFeeBL .~ 155_381
+      & L.hkdKeyDepositL .~ 2_000_000
       & L.hkdPoolDepositL .~ 500_000_000
       & L.hkdCoinsPerUTxOByteL .~ L.CoinPerByte 4_310
       & L.hkdPricesL .~ L.Prices
